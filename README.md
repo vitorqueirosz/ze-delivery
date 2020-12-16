@@ -6,14 +6,14 @@
 
  ## 📍 Índice
  
- - [Happy](#-happy)
- - [Technologies](#-Technologies)
+ - [Zé Delivery](#-app)
+ - [Technologies](#-technologies)
  - [Tools](#-tools)
  - [Installation](#-installation)
  
 <br />
 
-## 📝 Zé Delivery
+## 📝 App
  __Zé Delivery__ is a drink delivery app that connects with local merchants for easy delivery.
 </br>
 
