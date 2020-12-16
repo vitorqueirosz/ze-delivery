@@ -137,7 +137,7 @@ const Home: React.FC = () => {
                 </SwipeItem>
               </Swiper>
             </SwipeContainer>
-            {products.length !== 0 && (
+            {/* {products.length !== 0 && (
               <ButtonContainer>
                 <Button
                   enabled
@@ -147,7 +147,7 @@ const Home: React.FC = () => {
                   onPress={() => navigation.navigate('FinishBag')}
                 />
               </ButtonContainer>
-            )}
+            )} */}
           </Content>
         </>
       }

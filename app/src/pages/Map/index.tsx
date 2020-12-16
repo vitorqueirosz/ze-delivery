@@ -6,6 +6,7 @@ import * as Location from 'expo-location';
 import { Marker, PROVIDER_GOOGLE, MapEvent } from 'react-native-maps';
 import { Feather } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import GOOGLE_KEY from '../../config/key';
 import pinHome from '../../assets/pin.png';
 
 import Button from '../../components/Button';
@@ -68,7 +69,7 @@ const MapModal: React.FC = () => {
     const { latitude, longitude } = position;
 
     const { data } = await api.get(
-      `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=AIzaSyB1WgNQuh0ZfM_ADQFqXbXlG3_dhs2b_0Y`,
+      `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${GOOGLE_KEY}`,
     );
 
     if (data) {
